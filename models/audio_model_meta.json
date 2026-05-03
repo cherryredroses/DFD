@@ -1,0 +1,14 @@
+{
+  "feature_size": 280,
+  "n_mfcc": 40,
+  "sample_rate": 16000,
+  "n_estimators": 200,
+  "accuracy": 0.9928,
+  "f1_score": 0.9785,
+  "train_samples": 31308,
+  "test_samples": 7828,
+  "real_samples": 32501,
+  "fake_samples": 6635,
+  "threshold_fake": 0.7,
+  "threshold_suspicious": 0.5
+}
