@@ -14,18 +14,26 @@ University of Greenwich
 ```
 DFD/
 ├── backend.py              # Flask server, hybrid scoring, yt-dlp integration
-├── EAR_Predict.py          # EAR visual model 
+├── EAR_Predict.py          # EAR visual model
+├── Audio_Predict.py        # Audio model 
+├── EAR_debug.py            # bug testing
+├── Audio_Debug.py          # bug testing
 ├── shape_predictor_68_face_landmarks.dat          <-------- you will need to download (see below)
 ├── models/
-│   ├── audio_model.pkl 
+│   ├── audio_model.pkl     # trained audio model 
 │   └── audio_model_meta.json
+├── data/                   # video data- used for testing and traingin
+│   ├── testing/            # testing data 
+│   │   ├── fake/        
+│   │   └── real/
 └── extension/
     ├── manifest.json
     ├── popup.html
     ├── popup.js
     ├── content.js
     ├── logo.png
-    ├── background.js
+    └──  background.js
+
 
 
 ```
