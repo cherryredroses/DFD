@@ -111,7 +111,7 @@ The backend must be running for the Chrome extension to work.
 
 1. Start the backend: `python backend.py`
 2. Navigate to a video on YouTube, TikTok, Instagram, X or Facebook
-3. Click the DeepGuard icon in the toolbar
+3. Click the DFD icon in the toolbar
 4. Click "Analyse This Video"
 5. Wait for results (typically 10-30 seconds)
 
